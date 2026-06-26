@@ -44,13 +44,14 @@ projeto_clinica/
 
 ## 🔄 Guia de Engenharia Reversa (Para os Outros Grupos)
 
-| Este projeto (Clínica) | Delivery         | Academia          | Hotel             |
-|------------------------|------------------|-------------------|-------------------|
-| `pacientes`            | `clientes`       | `alunos`          | `hospedes`        |
-| `medicos`              | `produtos`       | `modalidades`     | `quartos`         |
-| `agendamentos`         | `pedidos`        | `matriculas`      | `reservas`        |
-| `especialidade`        | `categoria`      | `tipo`            | `tipo_quarto`     |
-| `data/hora`            | `data/status`    | `data_inicio`     | `check_in/out`    |
+
+| Este projeto (Clínica) | Delivery         | Academia          | Escola            | Controle de Estoque |
+|------------------------|------------------|-------------------|-------------------|---------------------|
+| `pacientes`            | `clientes`       | `alunos`          | `alunos`          | `produtos`          |
+| `medicos`              | `produtos`       | `modalidades`     | `discolinas`      | `categorias/forne`  |
+| `agendamentos`         | `pedidos`        | `matriculas`      | `notas`           | `movimentacoes`     |
+| `especialidade`        | `categoria`      | `tipo`            | `situacao`        | `alerta_estoque`    |
+| `data/hora`            | `data/status`    | `data_inicio`     | `media`           | `data_movimentacao` |
 
 ### Passo a Passo para Adaptar
 
